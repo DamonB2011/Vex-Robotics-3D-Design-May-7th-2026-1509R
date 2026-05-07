@@ -5,7 +5,6 @@
 [![Game Mode: Override](https://shields.io)](https://vexrobotics.com)
 [![Platform: V5](https://shields.io)]()
 [![Status: Concept/WIP (Work in Progress)](https://docs.google.com/document/d/17ZKdZGmnVa-AxawCWBdLEw7KyN8BN2ed9QluvtwbDcA/edit?tab=t.0)
-(https://docs.google.com/document/d/17ZKdZGmnVa-AxawCWBdLEw7KyN8BN2ed9QluvtwbDcA/edit?tab=t.0)
 
 A high-performance, symmetrical robot design for the 2026 VEX Robotics Competition season. This project focuses on vertical dominance via a mirrored DR4B lift and a multi-modal intake system.
 
