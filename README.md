@@ -3,7 +3,7 @@
 # VEX V5RC May 7th 2026: Override Concept Bot By Team 1509R 🤖
 
 [![Game Mode: Override](https://shields.io)](https://vexrobotics.com)
-[![Platform: V5](https://shields.io)]()
+[![Platform: V5](https://shields.io)](https://www.vexrobotics.com/v5?___store=vexroboticseu&___from_store=vexrobotics&srsltid=AfmBOoqiGvIiCY4PqpkoBhdZmyuRsv4nirsKSBZtGMfOeJtA4jTMdO6H)
 [![Status: Concept/WIP](https://shields.io)](https://docs.google.com/document/d/17ZKdZGmnVa-AxawCWBdLEw7KyN8BN2ed9QluvtwbDcA/edit?usp=sharing)
 
 A high-performance, symmetrical robot design for the 2026 VEX Robotics Competition season. This project focuses on vertical dominance via a mirrored DR4B lift and a multi-modal intake system.
