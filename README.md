@@ -6,48 +6,54 @@
 [![Platform: V5](https://shields.io)](https://www.vexrobotics.com/v5?___store=vexroboticseu&___from_store=vexrobotics&srsltid=AfmBOoqiGvIiCY4PqpkoBhdZmyuRsv4nirsKSBZtGMfOeJtA4jTMdO6H)
 [![Status: Concept/WIP](https://shields.io)](https://docs.google.com/document/d/17ZKdZGmnVa-AxawCWBdLEw7KyN8BN2ed9QluvtwbDcA/edit?usp=sharing)
 
-A high-performance, symmetrical robot design for the 2026 VEX Robotics Competition season. This project focuses on vertical dominance via a mirrored DR4B lift and a multi-modal intake system.
+This is my robot designed for the 2026 VEX Robotics Competition. The robot has a mirrored DR4B lift for vertical domination, and an adaptive intake to respond to the multiple game elements presented in the game.
 
 ---
 
-## 🛠 Project Structure & CAD Studios
+## Project Structure and CAD Studios
 
-The design is modularized across several specialized Part Studios to ensure precision spacing and structural symmetry. The main Engine that is running my 3D Model is OnShape.
+The robot is broken up into individual Part Studios to ensure correct spacing and a perfectly mirrored design. I'm using OnShape for all of my CAD work.
 
-### 🏎️ Drivetrain (DT)
-*   **Studio: `Mirrored DT` / `DT`**
-    *   **Frame:** Fully symmetrical C-channel chassis for balanced weight distribution.
-    *   **Wheel Configuration:** Hybrid drive utilizing **Traction Wheels** (defense/stability) and **Omni Wheels** (agility).
-    *   **Gearing:** Optimized **36:60 Gear Ratio** for a competitive balance between torque and traversal speed.
-    *   **Hardware:** Integrated **36t Shafts** with documented `Shaft Disassembled` views for maintenance.
+### Drivetrain (DT)
 
-### 🏗️ Lift System (DR4B)
-*   **Studio: `Modified DR4B 1509R` / `Mirrored DR4B`**
-    *   **Architecture:** Double Reverse Four-Bar based on the high-efficiency 1509R linkage.
-    *   **Interactivity:** Developed using the `DR4B Interactive` studio to ensure a 100% linear vertical travel path.
-    *   **Evolution:** Iterated from `Basic DR4B` prototypes to a final `Mirrored Side` assembly to eliminate lateral sway.
+- **Studio:** Mirrored DT / DT
+- **Frame:** Perfectly symmetrical C-channel structure, evenly distributing weight.
+- **Wheel Setup:** Hybrid drivetrain setup for a good blend of defense and offense (traction wheels for drive/defense, omni wheels for maneuvering).
+- **Gearing:** A calculated 36:60 gear ratio is implemented to allow for a decent speed and torque balance.
+- **Hardware:** Standard 36t shafts used, with shaft disassembled states clearly defined for ease of maintenance.
 
-### 🏗️ Manipulator & Intake
-*   **Studio: `Claw Concept` / `Roller`**
-    *   **Multi-Axis Grip:** Features both **Front/Back** and **Left/Right** claw designs to handle Pins and Cups from any orientation.
-    *   **Active Intake:** High-speed **Roller** system for "Touch It, Own It" game element acquisition.
-    *   **Symmetry:** Fully `Mirrored Claw` assembly to maximize motor efficiency and gripping force.
+### Lift System (DR4B)
 
----
+- **Studio:** Modified DR4B 1509R / Mirrored DR4B
+- **Design:** Highly adapted version of 1509R's ultra-efficient Double Reverse Four-Bar lift.
+- **Interactivity:** The DR4B Interactive studio is utilized for the DR4B mechanism to ensure a 100% vertical lift that doesn't swing.
+- **Evolution:** Moved from basic DR4B prototypes to this mirrored side design to ensure no lateral movement.
 
-## 📐 Engineering Optimization
-This repository emphasizes precision tolerances and clearance management:
+### Manipulator & Intake
 
--   **`Part Studio 1`**: Central hub for final assembly and global variable management.
--   **`Spacing`**: Dedicated studio for interference checking between the DR4B arms and the internal drivetrain components.
--   **`Assembly 1`**: Final top-level assembly for motion testing and center-of-mass analysis.
-
-## 🚀 Strategic Goals
-1.  **Midfield Dominance:** Use high-traction wheels and 36:60 gearing to control the central zones.
-2.  **High-Tier Stacking:** Utilize the linear DR4B reach to efficiently score on the highest goals.
-3.  **Vision Alignment:** Symmetrical chassis design optimized for AI Vision Sensor mounting and AprilTag tracking.
+- **Studio:** Claw Concept / Roller
+- **Grip:** Multi-axis grip that allows the robot to effectively grab and pick up pins and cups from all directions (front/back claw and left/right claw).
+- **Active Intake:** High-speed roller is implemented to quickly snatch game elements from directly in front of the robot, applying the "touch it, own it" mentality.
+- **Symmetry:** The claw design is fully mirrored for maximal motor efficiency and consistent clamping force.
 
 ---
 
-## 📝 License
-This design is intended for the VRC community. Please credit 1509R if you use elements of this DR4B or Claw geometry.
+## Engineering Optimization
+
+The design places strong emphasis on tolerances and clearances throughout.
+
+- **Part Studio 1:** Primary Part Studio where all the final assemblies are done, also for global parameter settings.
+- **Spacing:** Special Part Studio made to ensure there's enough room to ensure the DR4B doesn't hit the drivetrain.
+- **Assembly 1:** The top-level assembly where the complete robot is put together for basic motion testing, and for determining the center of mass.
+
+## Strategic Goals
+
+1. **Field Control:** The traction wheels, along with a 36:60 gear ratio, will allow for solid mid-field control and defense.
+2. **Advanced Scoring:** The high reach of the vertical lift makes it easy to score at the highest level.
+3. **Vision Integration:** The fully symmetrical structure ensures an optimized space for a vision sensor that can consistently track the opponent's AprilTags and make strategic plays.
+
+---
+
+## License
+
+This design is made to help and inspire future VRC teams. If you wish to use this robot or aspects of the DR4B or claw, please credit team 1509R.
